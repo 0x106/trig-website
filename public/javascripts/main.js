@@ -41,6 +41,7 @@ $('.triangle').on('click',
       });
 
       document.getElementById("feministas").style.display = 'none';
+      document.getElementById("details").style.display = 'none';
 
       menu_state = hidden;
     }
@@ -60,6 +61,7 @@ $('#people').on('click',
   function () {
 
     document.getElementById("feministas").style.display = 'grid';
+    document.getElementById("details").style.display = 'none';
 
     anime({
       targets: '#people',
@@ -68,8 +70,8 @@ $('#people').on('click',
 
     anime({
       targets: '.people',
-      opacity: [{value: 1.0, duration: 1000}],
-      delay: 750,
+      opacity: [{value: 1.0, duration: 100}],
+      // delay: 750,
       easing: 'linear'
     });
 
@@ -82,5 +84,9 @@ $('#contact').on('click',
       targets: '#contact',
       translateY: [{value: -20, duration: 500}, {value: 0, duration: 500}]
     });
+
+    document.getElementById("details").style.display = 'block';
+    document.getElementById("feministas").style.display = 'none';
+
   }
 );

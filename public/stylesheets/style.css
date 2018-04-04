@@ -1,5 +1,5 @@
 body {
-  background-color: #FEFCFB;
+  background-color: #FBFFFE;
 }
 
 .title {
@@ -9,7 +9,7 @@ body {
   margin-bottom: 0.1em;
   padding-left: 40px;
   font-size: 16vh;
-  color: #034078;
+  color: #0E363D;
 }
 
 .triangle {
@@ -26,7 +26,7 @@ body {
   overflow: hidden;
   width: 90%;
   padding-top: 20px;
-  color: #1282A2;
+  color: #1ABFBC;
 }
 
 li {
@@ -36,10 +36,6 @@ li {
   padding-right: 0.8em;
   opacity: 0.0;
   cursor: pointer;
-}
-
-#feministas {
-  display: none;
 }
 
 .horizontal-container {
@@ -54,9 +50,26 @@ li {
 
 .grid-item {
   font-family: 'Lato', sans-serif;
-  color: #1282A2;
+  color: #5C9EAD;
 }
 
 .name-text {
   text-align: center;
+}
+
+
+#feministas {
+  display: none;
+}
+
+.contact-details {
+  padding-top: 20vh;
+  padding-left: 4vw;
+}
+
+#details {
+  display: none;
+  font-size: 1.8em;
+  font-family: 'Roboto Mono', monospace;
+  color: #5C9EAD;
 }
