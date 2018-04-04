@@ -26,6 +26,7 @@ body {
   overflow: hidden;
   width: 90%;
   padding-top: 20px;
+  color: #1282A2;
 }
 
 li {
@@ -52,7 +53,7 @@ li {
 
 .grid-item {
   font-family: 'Lato', sans-serif;
-  color: #ff5a5f;
+  color: #1282A2;
 }
 
 .name-text {

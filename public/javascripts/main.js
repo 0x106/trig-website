@@ -69,6 +69,7 @@ $('#people').on('click',
     anime({
       targets: '.people',
       opacity: [{value: 1.0, duration: 1000}],
+      delay: 750,
       easing: 'linear'
     });
 
