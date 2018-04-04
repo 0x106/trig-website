@@ -42,6 +42,7 @@ $('.triangle').on('click',
 
       document.getElementById("feministas").style.display = 'none';
       document.getElementById("details").style.display = 'none';
+      document.getElementById("about-trig").style.display = 'none';
 
       menu_state = hidden;
     }
@@ -57,23 +58,37 @@ $('#projects').on('click',
   }
 );
 
+$('#about').on('click',
+  function () {
+    anime({
+      targets: '#about',
+      translateY: [{value: -20, duration: 500}, {value: 0, duration: 500}]
+    });
+
+    document.getElementById("about-trig").style.display = 'block';
+    document.getElementById("feministas").style.display = 'none';
+    document.getElementById("details").style.display = 'none';
+  }
+);
+
 $('#people').on('click',
   function () {
 
     document.getElementById("feministas").style.display = 'grid';
     document.getElementById("details").style.display = 'none';
+    document.getElementById("about-trig").style.display = 'none';
 
     anime({
       targets: '#people',
       translateY: [{value: -20, duration: 500}, {value: 0, duration: 500}]
     });
 
-    anime({
-      targets: '.people',
-      opacity: [{value: 1.0, duration: 100}],
-      // delay: 750,
-      easing: 'linear'
-    });
+    // anime({
+    //   targets: '.people',
+    //   opacity: [{value: 1.0, duration: 100}],
+    //   // delay: 750,
+    //   easing: 'linear'
+    // });
 
   }
 );
@@ -87,6 +102,7 @@ $('#contact').on('click',
 
     document.getElementById("details").style.display = 'block';
     document.getElementById("feministas").style.display = 'none';
+    document.getElementById("about-trig").style.display = 'none';
 
   }
 );

@@ -45,7 +45,7 @@ li {
   align-items: center;
   padding-top: 200px;
   height: 75vh;
-  opacity: 0.0;
+  /* opacity: 0.0; */
 }
 
 .grid-item {
@@ -62,14 +62,30 @@ li {
   display: none;
 }
 
-.contact-details {
-  padding-top: 20vh;
-  padding-left: 4vw;
+#about-trig {
+  display: none;
 }
 
 #details {
   display: none;
   font-size: 1.8em;
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Lora', serif;
   color: #5C9EAD;
+}
+
+
+.about-section {
+  padding-top: 16vh;
+  padding-left: 1vw;
+  font-size: 1.6em;
+  font-family: 'Lora', serif;
+  line-height: 2.25em;
+  width: 50%;
+  display: table;
+  margin: 0 auto;
+}
+
+.contact-details {
+  padding-top: 20vh;
+  padding-left: 4vw;
 }
