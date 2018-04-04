@@ -98,3 +98,27 @@ li {
   padding-top: 20vh;
   padding-left: 4vw;
 }
+
+.social {
+  /* style="display: inline-block;" */
+}
+
+.social img {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 30px;
+}
+
+
+#contact-email {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 2em;
+}
+
+#insta-text {
+  display: inline-block;
+  vertical-align: middle;
+  /* padding-left: 30px; */
+  font-size: 2em;
+}
