@@ -46,3 +46,21 @@ $('#projects').on('click',
     });
   }
 );
+
+$('#people').on('click',
+  function () {
+    anime({
+      targets: '#people',
+      translateY: [{value: -20, duration: 500}, {value: 0, duration: 500}]
+    });
+  }
+);
+
+$('#contact').on('click',
+  function () {
+    anime({
+      targets: '#contact',
+      translateY: [{value: -20, duration: 500}, {value: 0, duration: 500}]
+    });
+  }
+);
