@@ -13,7 +13,7 @@ body {
 }
 
 .triangle {
-  position: fixed;
+  position: absolute;
   right: 0;
   cursor: pointer;
   padding: 10px;
