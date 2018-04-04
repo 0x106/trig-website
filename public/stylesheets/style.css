@@ -94,13 +94,15 @@ li {
   margin: 0 auto;
 }
 
-.contact-details {
+/* .contact-details {
   padding-top: 20vh;
   padding-left: 4vw;
-}
+} */
 
 .social {
   /* style="display: inline-block;" */
+  /* height: auto; */
+  width: auto;
 }
 
 .social img {
@@ -109,11 +111,33 @@ li {
   padding: 30px;
 }
 
+.outer {
+  display: table;
+  position: absolute;
+  height: 80%;
+  width: 100%;
+  margin-top: 20vh;
+}
+
+.middle {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.inner {
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  text-align: center;
+  /*whatever width you want*/
+}
 
 #contact-email {
-  display: inline-block;
+  display: block;
   vertical-align: middle;
   font-size: 2em;
+  padding-bottom: 30px;
+  font-family: 'Julius Sans One', sans-serif;
 }
 
 #insta-text {
