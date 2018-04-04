@@ -16,6 +16,7 @@ body {
   position: fixed;
   right: 0;
   cursor: pointer;
+  padding: 10px;
 }
 
 .menu {
@@ -26,7 +27,7 @@ body {
   /* margin-left: 60px; */
   overflow: hidden;
   width: 90%;
-  padding-top: 20px;
+  padding-top: 60px;
   color: #1ABFBC;
   /* border-bottom: 1px solid red; */
   opacity: 0.0;
