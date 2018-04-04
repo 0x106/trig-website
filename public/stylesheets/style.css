@@ -21,7 +21,7 @@ body {
 
 .menu {
   list-style-type: none;
-  position: fixed;
+  position: absolute;
   float: center;
   padding: 0;
   /* margin-left: 60px; */
@@ -65,6 +65,8 @@ li {
 
 .name-text {
   text-align: center;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 2em;
 }
 
 
