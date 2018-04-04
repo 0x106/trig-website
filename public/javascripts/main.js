@@ -9,7 +9,7 @@ $('.triangle').on('click',
     console.log('click');
     if (menu_state == hidden) {
       anime({
-        targets: 'li',
+        targets: '.menu',
         opacity: [{value: 1.0, duration: 1000}],
         easing: 'linear'
       });
@@ -23,7 +23,7 @@ $('.triangle').on('click',
       menu_state = visible;
     } else {
       anime({
-        targets: 'li',
+        targets: '.menu',
         opacity: [{value: 0.0, duration: 1000}],
         easing: 'linear'
       });

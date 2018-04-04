@@ -23,20 +23,29 @@ body {
   position: fixed;
   float: center;
   padding: 0;
+  /* margin-left: 60px; */
   overflow: hidden;
   width: 90%;
   padding-top: 20px;
   color: #1ABFBC;
+  /* border-bottom: 1px solid red; */
+  opacity: 0.0;
 }
 
 li {
   display: inline-block;
   font-family: 'Julius Sans One', sans-serif;
   font-size: 6vh;
-  padding-right: 0.8em;
-  opacity: 0.0;
+  margin-right: 0.8em;
+  /* opacity: 0.0; */
   cursor: pointer;
+  /* text-align: center; */
+
 }
+
+/* ul {
+  padding-left: -40px;
+} */
 
 .horizontal-container {
   display: grid;
