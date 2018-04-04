@@ -47,7 +47,8 @@ li {
   grid-template-columns: 0.3333fr 0.3333fr 0.3333fr;
   justify-items: center;
   align-items: center;
-  height: 96vh;
+  padding-top: 200px;
+  height: 75vh;
   opacity: 0.0;
 }
 
