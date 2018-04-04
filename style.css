@@ -1,0 +1,38 @@
+body {
+  background-color: #FEFCFB;
+}
+
+.title {
+  font-family: 'Roboto Mono', monospace;
+  bottom: 0;
+  position: fixed;
+  margin-bottom: 0.1em;
+  padding-left: 40px;
+  font-size: 16vh;
+  color: #034078;
+}
+
+.triangle {
+  position: fixed;
+  right: 0;
+  cursor: pointer;
+}
+
+.menu {
+  list-style-type: none;
+  position: fixed;
+  float: center;
+  padding: 0;
+  overflow: hidden;
+  width: 90%;
+  padding-top: 20px;
+}
+
+li {
+  display: inline-block;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 6vh;
+  padding-right: 0.8em;
+  opacity: 0.0;
+  cursor: pointer;
+}
