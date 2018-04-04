@@ -36,3 +36,25 @@ li {
   opacity: 0.0;
   cursor: pointer;
 }
+
+#feministas {
+  display: none;
+}
+
+.horizontal-container {
+  display: grid;
+  grid-template-columns: 0.3333fr 0.3333fr 0.3333fr;
+  justify-items: center;
+  align-items: center;
+  height: 96vh;
+  opacity: 0.0;
+}
+
+.grid-item {
+  font-family: 'Lato', sans-serif;
+  color: #ff5a5f;
+}
+
+.name-text {
+  text-align: center;
+}

@@ -6,6 +6,7 @@ var menu_state = hidden;
 
 $('.triangle').on('click',
   function () {
+    console.log('click');
     if (menu_state == hidden) {
       anime({
         targets: 'li',
@@ -49,10 +50,20 @@ $('#projects').on('click',
 
 $('#people').on('click',
   function () {
+
+    document.getElementById("feministas").style.display = 'grid';
+
     anime({
       targets: '#people',
       translateY: [{value: -20, duration: 500}, {value: 0, duration: 500}]
     });
+
+    anime({
+      targets: '.people',
+      opacity: [{value: 1.0, duration: 1000}],
+      easing: 'linear'
+    });
+
   }
 );
 
