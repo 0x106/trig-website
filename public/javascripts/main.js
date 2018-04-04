@@ -34,6 +34,14 @@ $('.triangle').on('click',
         easing: 'linear'
       });
 
+      anime({
+        targets: '.people',
+        opacity: [{value: 0.0, duration: 1000}],
+        easing: 'linear'
+      });
+
+      document.getElementById("feministas").style.display = 'none';
+
       menu_state = hidden;
     }
   }
