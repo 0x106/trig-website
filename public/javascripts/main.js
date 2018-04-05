@@ -42,6 +42,7 @@ $('.triangle').on('click',
       document.getElementById("feministas").style.display = 'none';
       document.getElementById("details").style.display = 'none';
       document.getElementById("about-trig").style.display = 'none';
+      document.getElementById("atpf").style.display = 'none';
 
       menu_state = hidden;
     }
