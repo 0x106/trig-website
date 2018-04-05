@@ -54,21 +54,24 @@ li {
   justify-items: center;
   align-items: center;
   padding-top: 200px;
-  height: 75vh;
+  height: 10vh;
   /* opacity: 0.0; */
 }
 
 .grid-item {
   font-family: 'Lato', sans-serif;
   color: #5C9EAD;
+  cursor: pointer;
 }
 
 .name-text {
   text-align: center;
   font-family: 'Roboto Mono', monospace;
   font-size: 2em;
+  opacity: 0.0;
+  font-size: 4em;
+  transform: translate(0, -1.75em);
 }
-
 
 #feministas {
   display: none;
@@ -158,4 +161,16 @@ li {
   vertical-align: middle;
   /* padding-left: 30px; */
   font-size: 2em;
+}
+
+.person-desc {
+  display: none;
+  opacity: 1.0;
+  color: black;
+  font-size: 1.1em;
+  text-align: center;
+  font-family: 'Lora', serif;
+  line-height: 2.1em;
+  transform: translate(0, -4em);
+  width: 75%;
 }
