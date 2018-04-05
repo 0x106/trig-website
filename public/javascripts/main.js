@@ -54,6 +54,11 @@ $('#projects').on('click',
       targets: '#projects',
       translateY: [{value: -20, duration: 500}, {value: 0, duration: 500}]
     });
+
+    document.getElementById("details").style.display = 'none';
+    document.getElementById("feministas").style.display = 'none';
+    document.getElementById("about-trig").style.display = 'none';
+    document.getElementById("atpf").style.display = 'block';
   }
 );
 
@@ -67,6 +72,7 @@ $('#about').on('click',
     document.getElementById("about-trig").style.display = 'block';
     document.getElementById("feministas").style.display = 'none';
     document.getElementById("details").style.display = 'none';
+    document.getElementById("atpf").style.display = 'none';
   }
 );
 
@@ -76,6 +82,7 @@ $('#people').on('click',
     document.getElementById("feministas").style.display = 'grid';
     document.getElementById("details").style.display = 'none';
     document.getElementById("about-trig").style.display = 'none';
+    document.getElementById("atpf").style.display = 'none';
 
     anime({
       targets: '#people',
@@ -102,6 +109,7 @@ $('#contact').on('click',
     document.getElementById("details").style.display = 'block';
     document.getElementById("feministas").style.display = 'none';
     document.getElementById("about-trig").style.display = 'none';
+    document.getElementById("atpf").style.display = 'none';
 
   }
 );
