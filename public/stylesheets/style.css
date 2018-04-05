@@ -209,3 +209,7 @@ li {
 #atpf {
   display: none;
 }
+
+.atpf-image {
+  transform: translate(-36px,0);
+}
