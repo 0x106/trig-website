@@ -133,52 +133,52 @@ $('#cianna').hover(
     });
   }
 );
-$('#cianna-img').on('click',
-  function () {
-    anime({
-      targets: '#cianna-img',
-      opacity: [{value: 0.0, duration: 1000}]
-    });
-
-    var lindsay = document.getElementById("lindsay-name-text");
-    if (lindsay.style.display == 'none') {
-      lindsay.style.display = 'block';
-      var image = document.createElement("img");
-      // <img class="" src="images/lindsay-medium.jpg" alt="lindsay" height="500" width="325" id="lindsay-img">
-      image.class = "";
-      image.src = "images/lindsay-medium.jpg";
-      image.width = 325;
-      image.height = 500;
-      var desc = document.getElementById("lindsay-desc");
-      desc.replaceWith(image);
-    }
-
-    var nina = document.getElementById("nina-name-text");
-    if (nina.style.display == 'none') {
-      nina.style.display = 'block';
-      var image = document.createElement("img");
-      // <img class="" src="images/lindsay-medium.jpg" alt="lindsay" height="500" width="325" id="lindsay-img">
-      image.class = "";
-      image.src = "images/nina-medium.jpg";
-      image.width = 325;
-      image.height = 500;
-      var desc = document.getElementById("nina-desc");
-      desc.replaceWith(image);
-    }
-
-    var image = document.getElementById("cianna-img");
-    var desc = document.getElementById("cianna-desc");
-
-    image.replaceWith(desc);
-    desc.style.display = 'block';
-    document.getElementById("cianna-name-text").style.display = 'none';
-    anime({
-      targets: '#cianna-desc',
-      opacity: [{value: 1.0, duration: 1000}]
-    });
-  }
-);
-
+// $('#cianna-img').on('click',
+//   function () {
+//     anime({
+//       targets: '#cianna-img',
+//       opacity: [{value: 0.0, duration: 1000}]
+//     });
+//
+//     var lindsay = document.getElementById("lindsay-name-text");
+//     if (lindsay.style.display == 'none') {
+//       lindsay.style.display = 'block';
+//       var image = document.createElement("img");
+//       // <img class="" src="images/lindsay-medium.jpg" alt="lindsay" height="500" width="325" id="lindsay-img">
+//       image.class = "";
+//       image.src = "images/lindsay-medium.jpg";
+//       image.width = 325;
+//       image.height = 500;
+//       var desc = document.getElementById("lindsay-desc");
+//       desc.replaceWith(image);
+//     }
+//
+//     var nina = document.getElementById("nina-name-text");
+//     if (nina.style.display == 'none') {
+//       nina.style.display = 'block';
+//       var image = document.createElement("img");
+//       // <img class="" src="images/lindsay-medium.jpg" alt="lindsay" height="500" width="325" id="lindsay-img">
+//       image.class = "";
+//       image.src = "images/nina-medium.jpg";
+//       image.width = 325;
+//       image.height = 500;
+//       var desc = document.getElementById("nina-desc");
+//       desc.replaceWith(image);
+//     }
+//
+//     var image = document.getElementById("cianna-img");
+//     var desc = document.getElementById("cianna-desc");
+//
+//     image.replaceWith(desc);
+//     desc.style.display = 'block';
+//     document.getElementById("cianna-name-text").style.display = 'none';
+//     anime({
+//       targets: '#cianna-desc',
+//       opacity: [{value: 1.0, duration: 1000}]
+//     });
+//   }
+// );
+//
 
 
 $('#lindsay').hover(
@@ -189,52 +189,52 @@ $('#lindsay').hover(
     });
   }
 );
-$('#lindsay-img').on('click',
-  function () {
-    anime({
-      targets: '#lindsay-img',
-      opacity: [{value: 0.0, duration: 1000}]
-    });
-
-    var cianna = document.getElementById("cianna-name-text");
-    if (cianna.style.display == 'none') {
-      cianna.style.display = 'block';
-      var image = document.createElement("img");
-      // <img class="" src="images/lindsay-medium.jpg" alt="lindsay" height="500" width="325" id="lindsay-img">
-      image.class = "";
-      image.src = "images/cianna-medium.jpg";
-      image.width = 325;
-      image.height = 500;
-      var desc = document.getElementById("cianna-desc");
-      desc.replaceWith(image);
-    }
-
-    var nina = document.getElementById("nina-name-text");
-    if (nina.style.display == 'none') {
-      nina.style.display = 'block';
-      var image = document.createElement("img");
-      // <img class="" src="images/lindsay-medium.jpg" alt="lindsay" height="500" width="325" id="lindsay-img">
-      image.class = "";
-      image.src = "images/nina-medium.jpg";
-      image.width = 325;
-      image.height = 500;
-      var desc = document.getElementById("nina-desc");
-      desc.replaceWith(image);
-    }
-
-
-    var image = document.getElementById("lindsay-img");
-    var desc = document.getElementById("lindsay-desc");
-
-    image.replaceWith(desc);
-    desc.style.display = 'block';
-    document.getElementById("lindsay-name-text").style.display = 'none';
-    anime({
-      targets: '#lindsay-desc',
-      opacity: [{value: 1.0, duration: 1000}]
-    });
-  }
-);
+// $('#lindsay-img').on('click',
+//   function () {
+//     anime({
+//       targets: '#lindsay-img',
+//       opacity: [{value: 0.0, duration: 1000}]
+//     });
+//
+//     var cianna = document.getElementById("cianna-name-text");
+//     if (cianna.style.display == 'none') {
+//       cianna.style.display = 'block';
+//       var image = document.createElement("img");
+//       // <img class="" src="images/lindsay-medium.jpg" alt="lindsay" height="500" width="325" id="lindsay-img">
+//       image.class = "";
+//       image.src = "images/cianna-medium.jpg";
+//       image.width = 325;
+//       image.height = 500;
+//       var desc = document.getElementById("cianna-desc");
+//       desc.replaceWith(image);
+//     }
+//
+//     var nina = document.getElementById("nina-name-text");
+//     if (nina.style.display == 'none') {
+//       nina.style.display = 'block';
+//       var image = document.createElement("img");
+//       // <img class="" src="images/lindsay-medium.jpg" alt="lindsay" height="500" width="325" id="lindsay-img">
+//       image.class = "";
+//       image.src = "images/nina-medium.jpg";
+//       image.width = 325;
+//       image.height = 500;
+//       var desc = document.getElementById("nina-desc");
+//       desc.replaceWith(image);
+//     }
+//
+//
+//     var image = document.getElementById("lindsay-img");
+//     var desc = document.getElementById("lindsay-desc");
+//
+//     image.replaceWith(desc);
+//     desc.style.display = 'block';
+//     document.getElementById("lindsay-name-text").style.display = 'none';
+//     anime({
+//       targets: '#lindsay-desc',
+//       opacity: [{value: 1.0, duration: 1000}]
+//     });
+//   }
+// );
 
 
 
@@ -246,48 +246,48 @@ $('#nina').hover(
     });
   }
 );
-$('#nina-img').on('click',
-  function () {
-    anime({
-      targets: '#nina-img',
-      opacity: [{value: 0.0, duration: 1000}]
-    });
-
-    var cianna = document.getElementById("cianna-name-text");
-    if (cianna.style.display == 'none') {
-      cianna.style.display = 'block';
-      var image = document.createElement("img");
-      // <img class="" src="images/lindsay-medium.jpg" alt="lindsay" height="500" width="325" id="lindsay-img">
-      image.class = "";
-      image.src = "images/cianna-medium.jpg";
-      image.width = 325;
-      image.height = 500;
-      var desc = document.getElementById("cianna-desc");
-      desc.replaceWith(image);
-    }
-
-    var lindsay = document.getElementById("lindsay-name-text");
-    if (lindsay.style.display == 'none') {
-      lindsay.style.display = 'block';
-      var image = document.createElement("img");
-      // <img class="" src="images/lindsay-medium.jpg" alt="lindsay" height="500" width="325" id="lindsay-img">
-      image.class = "";
-      image.src = "images/lindsay-medium.jpg";
-      image.width = 325;
-      image.height = 500;
-      var desc = document.getElementById("lindsay-desc");
-      desc.replaceWith(image);
-    }
-
-    var image = document.getElementById("nina-img");
-    var desc = document.getElementById("nina-desc");
-
-    image.replaceWith(desc);
-    desc.style.display = 'block';
-    document.getElementById("nina-name-text").style.display = 'none';
-    anime({
-      targets: '#nina-desc',
-      opacity: [{value: 1.0, duration: 1000}]
-    });
-  }
-);
+// $('#nina-img').on('click',
+//   function () {
+//     anime({
+//       targets: '#nina-img',
+//       opacity: [{value: 0.0, duration: 1000}]
+//     });
+//
+//     var cianna = document.getElementById("cianna-name-text");
+//     if (cianna.style.display == 'none') {
+//       cianna.style.display = 'block';
+//       var image = document.createElement("img");
+//       // <img class="" src="images/lindsay-medium.jpg" alt="lindsay" height="500" width="325" id="lindsay-img">
+//       image.class = "";
+//       image.src = "images/cianna-medium.jpg";
+//       image.width = 325;
+//       image.height = 500;
+//       var desc = document.getElementById("cianna-desc");
+//       desc.replaceWith(image);
+//     }
+//
+//     var lindsay = document.getElementById("lindsay-name-text");
+//     if (lindsay.style.display == 'none') {
+//       lindsay.style.display = 'block';
+//       var image = document.createElement("img");
+//       // <img class="" src="images/lindsay-medium.jpg" alt="lindsay" height="500" width="325" id="lindsay-img">
+//       image.class = "";
+//       image.src = "images/lindsay-medium.jpg";
+//       image.width = 325;
+//       image.height = 500;
+//       var desc = document.getElementById("lindsay-desc");
+//       desc.replaceWith(image);
+//     }
+//
+//     var image = document.getElementById("nina-img");
+//     var desc = document.getElementById("nina-desc");
+//
+//     image.replaceWith(desc);
+//     desc.style.display = 'block';
+//     document.getElementById("nina-name-text").style.display = 'none';
+//     anime({
+//       targets: '#nina-desc',
+//       opacity: [{value: 1.0, duration: 1000}]
+//     });
+//   }
+// );
