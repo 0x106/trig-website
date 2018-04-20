@@ -19,6 +19,12 @@ $('.triangle').on('click',
         easing: 'linear'
       });
 
+      anime({
+        targets: '#homepage-video',
+        opacity: [{value: 0.0, duration: 1000}],
+        easing: 'linear'
+      });
+
       menu_state = visible;
     } else {
       anime({
@@ -36,6 +42,12 @@ $('.triangle').on('click',
       anime({
         targets: '.people',
         opacity: [{value: 0.0, duration: 1000}],
+        easing: 'linear'
+      });
+
+      anime({
+        targets: '#homepage-video',
+        opacity: [{value: 1.0, duration: 1000}],
         easing: 'linear'
       });
 
