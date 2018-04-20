@@ -3,6 +3,9 @@ const visible = 0;
 const hidden = 1;
 
 var menu_state = hidden;
+// var homepage_video =  iFrame.getElementById('homepage-video');
+// homepage_video.mute();
+
 
 $('.triangle').on('click',
   function () {

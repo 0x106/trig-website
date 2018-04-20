@@ -10,6 +10,7 @@ body {
   padding-left: 40px;
   font-size: 16vh;
   color: #0E363D;
+  z-index: -1;
 }
 
 .triangle {
@@ -221,4 +222,9 @@ li {
     bottom: 0;
     min-width: 100%;
     min-height: 100%;
+    z-index: -1;
+}
+
+.project-video {
+  /* transform: translate(36px,0); */
 }
