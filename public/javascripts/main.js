@@ -1,4 +1,3 @@
-
 const visible = 0;
 const hidden = 1;
 
@@ -8,49 +7,67 @@ var menu_state = hidden;
 
 
 $('.triangle').on('click',
-  function () {
+  function() {
     if (menu_state == hidden) {
       anime({
         targets: '.menu',
-        opacity: [{value: 1.0, duration: 1000}],
+        opacity: [{
+          value: 1.0,
+          duration: 1000
+        }],
         easing: 'linear'
       });
 
       anime({
         targets: '.title',
-        opacity: [{value: 0.0, duration: 1000}],
+        opacity: [{
+          value: 0.0,
+          duration: 1000
+        }],
         easing: 'linear'
       });
 
-      anime({
-        targets: '#homepage-video',
-        opacity: [{value: 0.0, duration: 1000}],
-        easing: 'linear'
-      });
+      // anime({
+      //   targets: '#homepage-video',
+      //   opacity: [{value: 0.0, duration: 1000}],
+      //   easing: 'linear'
+      // });
 
       menu_state = visible;
     } else {
       anime({
         targets: '.menu',
-        opacity: [{value: 0.0, duration: 1000}],
+        opacity: [{
+          value: 0.0,
+          duration: 1000
+        }],
         easing: 'linear'
       });
 
       anime({
         targets: '.title',
-        opacity: [{value: 1.0, duration: 1000}],
+        opacity: [{
+          value: 1.0,
+          duration: 1000
+        }],
         easing: 'linear'
       });
 
       anime({
         targets: '.people',
-        opacity: [{value: 0.0, duration: 1000}],
+        opacity: [{
+          value: 0.0,
+          duration: 1000
+        }],
         easing: 'linear'
       });
 
       anime({
         targets: '#homepage-video',
-        opacity: [{value: 1.0, duration: 1000}],
+        opacity: [{
+          value: 1.0,
+          duration: 400
+        }],
         easing: 'linear'
       });
 
@@ -65,10 +82,26 @@ $('.triangle').on('click',
 );
 
 $('#projects').on('click',
-  function () {
+  function() {
+
+    anime({
+      targets: '#homepage-video',
+      opacity: [{
+        value: 0.0,
+        duration: 400
+      }],
+      easing: 'linear'
+    });
+
     anime({
       targets: '#projects',
-      translateY: [{value: -20, duration: 500}, {value: 0, duration: 500}]
+      translateY: [{
+        value: -20,
+        duration: 500
+      }, {
+        value: 0,
+        duration: 500
+      }]
     });
 
     document.getElementById("details").style.display = 'none';
@@ -79,10 +112,26 @@ $('#projects').on('click',
 );
 
 $('#about').on('click',
-  function () {
+  function() {
+
+    anime({
+      targets: '#homepage-video',
+      opacity: [{
+        value: 0.0,
+        duration: 400
+      }],
+      easing: 'linear'
+    });
+
     anime({
       targets: '#about',
-      translateY: [{value: -20, duration: 500}, {value: 0, duration: 500}]
+      translateY: [{
+        value: -20,
+        duration: 500
+      }, {
+        value: 0,
+        duration: 500
+      }]
     });
 
     document.getElementById("about-trig").style.display = 'block';
@@ -93,7 +142,16 @@ $('#about').on('click',
 );
 
 $('#people').on('click',
-  function () {
+  function() {
+
+    anime({
+      targets: '#homepage-video',
+      opacity: [{
+        value: 0.0,
+        duration: 400
+      }],
+      easing: 'linear'
+    });
 
     document.getElementById("feministas").style.display = 'grid';
     document.getElementById("details").style.display = 'none';
@@ -102,7 +160,13 @@ $('#people').on('click',
 
     anime({
       targets: '#people',
-      translateY: [{value: -20, duration: 500}, {value: 0, duration: 500}]
+      translateY: [{
+        value: -20,
+        duration: 500
+      }, {
+        value: 0,
+        duration: 500
+      }]
     });
 
     // anime({
@@ -116,10 +180,26 @@ $('#people').on('click',
 );
 
 $('#contact').on('click',
-  function () {
+  function() {
+
+    anime({
+      targets: '#homepage-video',
+      opacity: [{
+        value: 0.0,
+        duration: 400
+      }],
+      easing: 'linear'
+    });
+
     anime({
       targets: '#contact',
-      translateY: [{value: -20, duration: 500}, {value: 0, duration: 500}]
+      translateY: [{
+        value: -20,
+        duration: 500
+      }, {
+        value: 0,
+        duration: 500
+      }]
     });
 
     document.getElementById("details").style.display = 'block';
@@ -141,10 +221,16 @@ $('#contact').on('click',
 // ======================================
 
 $('#cianna').hover(
-  function () {
+  function() {
     anime({
       targets: '#cianna-name-text',
-      opacity: [{value: 1.0, duration: 1000}, {value: 0.0, duration: 1000}]
+      opacity: [{
+        value: 1.0,
+        duration: 1000
+      }, {
+        value: 0.0,
+        duration: 1000
+      }]
     });
   }
 );
@@ -197,10 +283,16 @@ $('#cianna').hover(
 
 
 $('#lindsay').hover(
-  function () {
+  function() {
     anime({
       targets: '#lindsay-name-text',
-      opacity: [{value: 1.0, duration: 1000}, {value: 0.0, duration: 1000}]
+      opacity: [{
+        value: 1.0,
+        duration: 1000
+      }, {
+        value: 0.0,
+        duration: 1000
+      }]
     });
   }
 );
@@ -254,10 +346,16 @@ $('#lindsay').hover(
 
 
 $('#nina').hover(
-  function () {
+  function() {
     anime({
       targets: '#nina-name-text',
-      opacity: [{value: 1.0, duration: 1000}, {value: 0.0, duration: 1000}]
+      opacity: [{
+        value: 1.0,
+        duration: 1000
+      }, {
+        value: 0.0,
+        duration: 1000
+      }]
     });
   }
 );
