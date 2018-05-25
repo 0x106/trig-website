@@ -75,6 +75,7 @@ $('.triangle').on('click',
       document.getElementById("details").style.display = 'none';
       document.getElementById("about-trig").style.display = 'none';
       document.getElementById("atpf").style.display = 'none';
+      document.getElementById("collab").style.display = 'none';
 
       menu_state = hidden;
     }
@@ -108,6 +109,38 @@ $('#projects').on('click',
     document.getElementById("feministas").style.display = 'none';
     document.getElementById("about-trig").style.display = 'none';
     document.getElementById("atpf").style.display = 'block';
+    document.getElementById("collab").style.display = 'none';
+  }
+);
+
+$('#collaborations').on('click',
+  function() {
+
+    anime({
+      targets: '#homepage-video',
+      opacity: [{
+        value: 0.0,
+        duration: 400
+      }],
+      easing: 'linear'
+    });
+
+    anime({
+      targets: '#collaborations',
+      translateY: [{
+        value: -20,
+        duration: 500
+      }, {
+        value: 0,
+        duration: 500
+      }]
+    });
+
+    document.getElementById("details").style.display = 'none';
+    document.getElementById("feministas").style.display = 'none';
+    document.getElementById("about-trig").style.display = 'none';
+    document.getElementById("atpf").style.display = 'none';
+    document.getElementById("collab").style.display = 'block';
   }
 );
 
@@ -138,6 +171,7 @@ $('#about').on('click',
     document.getElementById("feministas").style.display = 'none';
     document.getElementById("details").style.display = 'none';
     document.getElementById("atpf").style.display = 'none';
+    document.getElementById("collab").style.display = 'none';
   }
 );
 
@@ -157,6 +191,7 @@ $('#people').on('click',
     document.getElementById("details").style.display = 'none';
     document.getElementById("about-trig").style.display = 'none';
     document.getElementById("atpf").style.display = 'none';
+    document.getElementById("collab").style.display = 'none';
 
     anime({
       targets: '#people',
@@ -206,7 +241,7 @@ $('#contact').on('click',
     document.getElementById("feministas").style.display = 'none';
     document.getElementById("about-trig").style.display = 'none';
     document.getElementById("atpf").style.display = 'none';
-
+    document.getElementById("collab").style.display = 'none';
   }
 );
 
