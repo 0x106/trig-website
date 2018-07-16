@@ -1,0 +1,7 @@
+#currentSelectedMenuItem::after {
+    content: '';
+    display: block;
+    height: 4px;
+    background: #A23B72;
+    width: 100%;
+}

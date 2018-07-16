@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Mosaico</title>
+		<meta name="keywords" content="webgl, background, shape, web design, web development, tweenmax, gsap, animation" />
+		<meta name="author" content="Louis Hoebregts for Codrops" />
+		<link rel="apple-touch-icon" sizes="57x57" href="resources/apple-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="resources/apple-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="resources/apple-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="resources/apple-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="resources/apple-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="resources/apple-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="resources/apple-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="resources/apple-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="resources/apple-icon-180x180.png">
+		<link rel="icon" type="image/png" sizes="192x192"  href="resources/android-icon-192x192.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="resources/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="resources/favicon-96x96.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="resources/favicon-16x16.png">
+		<link rel="manifest" href="resources/manifest.json">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-TileImage" content="resources/ms-icon-144x144.png">
+		<meta name="theme-color" content="#ffffff">
+
+		<link href="https://fonts.googleapis.com/css?family=Barlow:300,400,500,700|Poppins:300,400,600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500|Nunito:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/menuStyle.css" />
+	</head>
+	<body>
+
+    <!-- <canvas class="main__blob main__blob__full" id="scene"></canvas> -->
+
+		<div class='grid-container'>
+			<div class='menu__bar'>
+				<div class='menu__title'>
+					<div id="main__title">
+						<h1 onclick="location.href='file:///Users/jordancampbell/helix/trig-website/new-design/index.html';">Trig Productions</h1>
+					</div>
+				</div>
+
+				<div class='menu__container'>
+					<div class='menu'>
+							<div class='menu__item'></div>
+							<div class='menu__item menu__item__selectable' onclick="location.href='file:///Users/jordancampbell/helix/trig-website/new-design/about.html';"><p>About</p></div>
+							<div class='menu__item menu__item__selectable' onclick="location.href='file:///Users/jordancampbell/helix/trig-website/new-design/team.html';"><p>Team</p></div>
+							<div class='menu__item menu__item__selectable' onclick="location.href='file:///Users/jordancampbell/helix/trig-website/new-design/projects.html';"><p>Projects</p></div>
+							<div class='menu__item menu__item__selectable' onclick="location.href='file:///Users/jordancampbell/helix/trig-website/new-design/collaborations.html';"><p>Collaborations</p></div>
+							<div class='menu__item menu__item__selectable' onclick="location.href='file:///Users/jordancampbell/helix/trig-website/new-design/contact.html';"><p>Contact</p></div>
+					</div>
+				</div>
+			</div>
+
+			<div class='team__section'>
+				<div class='team__content'></div>
+				<div class='team__content'>
+
+					<div class='team__container'>
+
+						<img src="file:///Users/jordancampbell/helix/trig-website/new-design/images/cianna-proper.jpg" width="300" height="300">
+						<img src="file:///Users/jordancampbell/helix/trig-website/new-design/images/lindsay-proper.jpg" width="300" height="300">
+						<img src="file:///Users/jordancampbell/helix/trig-website/new-design/images/nina-proper.jpg" width="300" height="300">
+
+						<h2>Cianna | Co-Founder | Director</h2>
+						<h2>Lindsay | Co-Founder | Director</h2>
+						<h2>Nina | Co-Founder</h2>
+						<p class="person__desc" id="cianna-desc">
+		          Originally from the UK, Cianna’s love for exploring different countries and cultures has led her to live in New Zealand, Singapore and now Spain.<br><br>
+		          ​Cianna has been drawn to visual media from a young age. This started with photography and has developed into a passion for the broader storytelling options
+		           that filmmaking offers. Her background centres around both fiction and documentary film exhibition, outreach and publicity. In more recent years she has moved
+		           into production, which has involved working as an editorial assistant for a web-based documentary project and as a co-director and producer.
+		        </p>
+
+					<!-- <div class='team__content'> -->
+
+
+						<p class="person__desc" id="lindsay-desc">
+		          Lindsay’s passion for filmmaking is driven by her want to visually tell stories. She is drawn to both fiction and non-fiction as she puts character driven stories as her top priority.
+		           She is excited to explore all that Barcelona has to offer creatively with Trig Productions.<br><br>
+		          Lindsay’s love for filmmaking started at a young age and it slowly grew into the area she wanted a career in. She studied at the University of the West of Scotland and gained a BA (Hons)
+		           degree in filmmaking and screenwriting. Since then she has gone on to do a range of courses and training programmes to build on her knowledge and skills of film production. Lindsay has had
+		           experience creating independent content as well as working for STV Aberdeen.
+		           </p>
+
+
+					<!-- <div class='team__content'> -->
+
+
+						<p class="person__desc" id="nina-desc">
+		          As a co-director of Trig Productions, she is really looking forward to discovering new stories in the city and working collaboratively within the creative hub of Barcelona city.<br><br>
+		          After studying Philosophy and Theology at the University and Edinburgh, she began to pursue an interest in documentary filmmaking and storytelling, and went on to complete further
+		          training at the National Film and Television School (in the UK).<br><br>
+		          Nina has experience working with the BBC, and other independent production companies such as Magic Light Pictures, and Mozart Films in the UK.
+		       </p>
+					<!-- </div> -->
+				</div>
+
+
+
+				<div class='team__content'></div>
+			</div>
+
+
+		</div>
+
+    </div>
+	</body>
+</html>
